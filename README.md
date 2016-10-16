@@ -122,13 +122,19 @@ SELECT * FROM project where tid='1'
 
 
 ![1](https://cloud.githubusercontent.com/assets/16081097/19418450/a277da3e-93f6-11e6-8b66-dbb64707cef2.jpg)
-![alt text](/path/to/2.png "Title")
-![alt text](/path/to/3.png "Title")
-![alt text](/path/to/4.png "Title")
-![alt text](/path/to/5.png "Title")
+
+![2](https://cloud.githubusercontent.com/assets/16081097/19418476/21fb9af2-93f7-11e6-9c99-ed22c7602d48.png)
+
+![3](https://cloud.githubusercontent.com/assets/16081097/19418480/2bbc1d64-93f7-11e6-98ee-670eed38f661.png)
+
+![4](https://cloud.githubusercontent.com/assets/16081097/19418483/32881940-93f7-11e6-80d2-37faa6f9f4de.png)
+
+![5](https://cloud.githubusercontent.com/assets/16081097/19418485/37a0a460-93f7-11e6-8ef9-a7233da57faa.png)
+
+
 三、	ER图
 ----------
-![alt text](/path/to/er.png "Title")
+![er](https://cloud.githubusercontent.com/assets/16081097/19418487/3b1b302e-93f7-11e6-88c2-e295e0d800ae.png)
 
 Axure网站链接
 ------------
