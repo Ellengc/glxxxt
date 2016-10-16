@@ -3,6 +3,7 @@
 一、	数据库建表
 ---------------
 保养消耗表
+
 DROP TABLE IF EXISTS `consume`;
 CREATE TABLE `consume` (
   `id` int(11) NOT NULL,
@@ -12,6 +13,7 @@ CREATE TABLE `consume` (
   `proid` int(11) DEFAULT NULL,
  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
 设备表
 
 DROP TABLE IF EXISTS `equipment`;
@@ -22,6 +24,7 @@ CREATE TABLE `equipment` (
   `tid` int(11) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
 设备类型表
 
 DROP TABLE IF EXISTS `equipment_type`;
@@ -31,14 +34,18 @@ CREATE TABLE `equipment_type` (
   `rtype` varchar(225) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
 保养人表
+
 DROP TABLE IF EXISTS `people`;
 CREATE TABLE `people` (
   `id` int(11) NOT NULL,
   `name` tinytext NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
 保养项目表
+
 DROP TABLE IF EXISTS `project`;
 CREATE TABLE `project` (
   `id` int(11) NOT NULL,
@@ -48,7 +55,9 @@ CREATE TABLE `project` (
   `etid` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
 保养记录表
+
 DROP TABLE IF EXISTS `record`;
 CREATE TABLE `record` (
   `id` int(11) NOT NULL,
