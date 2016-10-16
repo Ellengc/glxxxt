@@ -111,14 +111,16 @@ CREATE TABLE `record` (
 二、	查询
 ---------
 select * from record where id='1'
+
 select * from equipment where id='1'
+
 select * from type where id='1'
+
 SELECT * FROM people where name='小明'
+
 SELECT * FROM project where tid='1'
 
-![alt text][id]
 
-[id]: /path/to/1.png "Title"
 ![alt text](/path/to/1.jpg "Title")
 ![alt text](/path/to/2.png "Title")
 ![alt text](/path/to/3.png "Title")
