@@ -121,7 +121,7 @@ SELECT * FROM people where name='小明'
 SELECT * FROM project where tid='1'
 
 
-![alt text](/path/to/1.png "Title")
+![1](https://cloud.githubusercontent.com/assets/16081097/19418450/a277da3e-93f6-11e6-8b66-dbb64707cef2.jpg)
 ![alt text](/path/to/2.png "Title")
 ![alt text](/path/to/3.png "Title")
 ![alt text](/path/to/4.png "Title")
