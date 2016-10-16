@@ -5,13 +5,21 @@
 保养消耗表
 
 DROP TABLE IF EXISTS `consume`;
+
 CREATE TABLE `consume` (
+
   `id` int(11) NOT NULL,
+  
   `name` varchar(225) NOT NULL,
+  
   `count` int(11) DEFAULT NULL,
+  
   `lcount` int(11) DEFAULT NULL,
+  
   `proid` int(11) DEFAULT NULL,
+  
  PRIMARY KEY (`id`)
+ 
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 设备表
