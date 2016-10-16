@@ -66,7 +66,7 @@ select * from type where id='1'
 SELECT * FROM people where name='小明'
 SELECT * FROM project where tid='1'
 
-![alt text](t/1.png "Title")
+![alt text](/path/to/1.jpg "Title")
 ![alt text](/path/to/2.png "Title")
 ![alt text](/path/to/3.png "Title")
 ![alt text](/path/to/4.png "Title")
